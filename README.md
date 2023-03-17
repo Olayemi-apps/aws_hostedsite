@@ -1,4 +1,4 @@
-# Project with AWS Cloud optimising the following services:
+# Newly created Art Gallery website deployed on AWS Cloud optimising the following services:
  - AWS Route 53
  - AWS CloudFront
  - AWS S3 Bucket
