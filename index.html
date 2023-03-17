@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>The Art Group Galley</title>
+<meta charset="UTF-8">
+<link rel="apple-touch-icon" sizes="180x180" href="./images//apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./images//favicon-16x16.png">
+<link rel="manifest" href="./images//site.webmanifest">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h5 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('./images/art_gallery.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+@media (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+  .bgimg {
+    background-image: url('./images/art_gallery_mobile.jpg');
+    min-height: 0;
+    height: auto;
+    background-size: contain;
+  }
+  .center {
+    width: 80%;
+  }
+  .w3-display-bottomleft {
+    position: static;
+    margin-top: 30px;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .bgimg {
+    background-image: url('./images/art_gallery.jpg');
+    min-height: 100%;
+    height: auto;
+    background-size: cover;
+  }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .center {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .w3-display-container {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .w3-display-container {
+    font-size: 14px;
+  }
+}
+</style>
+</head>
+<body>
+<div class="bgimg w3-display-container w3-text-white">
+  <div class="w3-display-middle w3-jumbo">
+    <img src="./images/logo_v2.png" alt="The Art Group logo" class="center" width="250" height="250">
+    <p style="text-align:center">THE ART GROUP</p>
+  </div>
+  <div class="w3-display-topleft w3-container w3-xlarge">
+    <p><button onclick="document.getElementById('enquiries').style.display='block'" class="w3-button w3-black">enquiries</button></p>
+    <p><button onclick="document.getElementById('contact').style.display='block'" class="w3-button w3-black">contact</button></p>
+  </div>
+  <div class="w3-display-bottomleft w3-container">
+    <p class="w3-xlarge">monday - friday 8am-5.30pm | saturday 8am-7.30pm</p>
+    <p class="w3-large">The Art Group </p>
+    <p>powered by AWS</a></p>
+  </div>
+</div>
+
+<!-- Menu Modal -->
+<div id="enquiries" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('enquiries').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Exhibition Hall</h1>
+    </div>
+    <div class="w3-container">
+      <h5><b>D.Clementa</b> - Spiral Landscape Shills</h5>
+      <h5><b>K.Rosario</b> - The Earth is on an Ice berg</h5>
+      <h5><b>Carl Wills</b> - Keep the Spinners Spinning</h5>
+    </div>
+    <div class="w3-container w3-black">
+      <h1>First Floor</h1>
+    </div>
+    <div class="w3-container">
+      <h5><b>O.Seyi</b> - The Shilo</h5>
+      <h5><b>T.Oyelowo</b> -The Tide is in</h5>
+      <h5><b>K.Tokumbo</b> - All Eyes on the Prize</h5>
+      <h5><b>P.Wole</b> -  The Tomb<b></h5>
+      <h5><b>Carlton Smith</b> - It was a Dream</h5>
+    </div>
+    <div class="w3-container w3-black">
+      <h1>Top Floor</h1>
+    </div>
+    <div class="w3-container">
+      <h5><b>M.Greens</b> - The Chocolate Cake</h5>
+      <h5><b>Betty Airs</b> - Random Events</h5>
+      <h5><b>P.Pablo</b> - Goose Green Swirls</h5>
+      <h5><b>B.Robson</b> - Grizzley</h5>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Modal -->
+<div id="contact" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black">
+      <span onclick="document.getElementById('contact').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Contact</h1>
+    </div>
+    <div class="w3-container">
+      <p>Reserve a ticket, more information or just send us a message:</p>
+      <form action="/action_page.php" target="_blank">
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many people" required name="People"></p>
+                <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2023-03-16T20:00"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Additional requirements" required name="Message"></p>
+        <p><button class="w3-button" type="submit">SEND MESSAGE</button></p>
+      </form>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
