@@ -1,4 +1,4 @@
-# New Project with AWS Cloud optimising the following services:
+# Project with AWS Cloud optimising the following services:
  - AWS Route 53
  - AWS CloudFront
  - AWS S3 Bucket
