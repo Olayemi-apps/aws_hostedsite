@@ -7,4 +7,4 @@
 ## Cloud Design Architecture 
 ![image](https://github.com/Olayemi-apps/aws_hostedsite/blob/dfac8a03f041aa469999fee920e84e8a18a9ee8a/images/hosted_website.jpg)
 ## The Art Group Website
-![image](https://github.com/Olayemi-apps/aws_hostedsite/blob/0dc2bdad7b13e30e40f339e55e36381239d7e4ae/images/artgroup.gif)
+![image](https://raw.githubusercontent.com/Olayemi-apps/aws_hostedsite/master/images/artgroup.webp)
