@@ -5,4 +5,4 @@
  - AWS Certificate Manager
 
 ## Cloud Design Architecture 
-![image](files/Users/jzhang/Desktop/Isolated.png)
+![image](https://github.com/Olayemi-apps/aws_hostedsite/blob/dfac8a03f041aa469999fee920e84e8a18a9ee8a/images/hosted_website.jpg)
