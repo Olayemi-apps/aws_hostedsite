@@ -4,7 +4,7 @@
  - AWS S3 Bucket
  - AWS Certificate Manager
 
-## 💻 Website: <a href="https://theartgroup.online/" target="_blank">Theartgroup</a>
+## 💻 Website: <a href="https://www.theartgroup.online" target="_blank">Theartgroup</a>
 
 ## Cloud Design Architecture:
 ![image](https://github.com/Olayemi-apps/aws_hostedsite/blob/dfac8a03f041aa469999fee920e84e8a18a9ee8a/images/hosted_website.jpg)
